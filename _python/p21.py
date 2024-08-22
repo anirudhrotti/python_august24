@@ -8,4 +8,4 @@ for i in range(1,num_lines+1):
         else:
             print(" ",end=" ")
     
-    print()
+    
