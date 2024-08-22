@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Problem statement: Program to check if the number is Perfect square
 
 import math as mt
@@ -15,22 +14,4 @@ for i in range(1,pre_num):
 #print(divisors)
 pre_sum = sum(divisors)
 if pre_num == pre_sum:
-=======
-# Problem statement: Program to check if the number is Perfect square
-
-import math as mt
-pre_num = int(input("Enter any number:"))
-pre_sq = mt.sqrt(pre_num)
-if pre_num == (pre_sq)**2:
- print(pre_num,"is a Prefect square!!")
-
-# Prefect number::
-divisors = []
-for i in range(1,pre_num):
-    if pre_num % i == 0:
-        divisors.append(i)
-#print(divisors)
-pre_sum = sum(divisors)
-if pre_num == pre_sum:
->>>>>>> c529d533494f9e76babeac19b475bf76a55c562a
     print(pre_num,"is a Prefect number!!")
